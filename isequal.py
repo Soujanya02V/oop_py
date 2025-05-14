@@ -17,3 +17,5 @@ print(a.name)
 a.name = "tuvi"
 print(a.name)
 a.info()
+
+#__name__ == "__main__"
