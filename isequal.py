@@ -19,3 +19,8 @@ print(a.name)
 a.info()
 
 #__name__ == "__main__"
+
+#string reversing
+a = "soujanya"
+b = a[::-1]
+print(b)
