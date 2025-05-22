@@ -1,0 +1,28 @@
+#to build custom data types
+class Employee:
+  company = "hello"
+  def show(self):
+    print(f"{self.name} in {self.company}"}
+  @classmethod
+  def change(cls, newcomp):
+           clas.company = newcomp
+e1 = Employee()
+e1.name = "souju"
+e1.show()
+e1.changecomp("helloo")
+e1.show()
+print(Employee.company)
+
+
+
+           #as a constructors
+           class Employee:
+           def __init__(self,name,salary):
+             string = "souju-12000"
+             self.name = name
+             self.salary = salary
+         e = Employee("string.split("-")[0],string.split("-")[1])
+         print(e.name)
+         print(e,salary)
+        
+         
