@@ -1,2 +1,14 @@
 #using a super key in python
 #it is different from finally keyword
+
+class ParentClass:
+    def parent_method(self):
+        print("parent")
+class ChildClass(ParentClass):
+    def childMethod(self):
+        print("child")
+        super().parent_method()
+
+child_object = ChildClass()
+child_object.childMethod()
+child_object.parent_method()
