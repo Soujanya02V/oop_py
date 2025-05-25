@@ -24,5 +24,20 @@ print(Employee.company)
          e = Employee("string.split("-")[0],string.split("-")[1])
          print(e.name)
          print(e,salary)
+
+
+
+#dunder/magic methods
+lass Employee:
+    name = "souju"
+    def __len__(self):
+        i = 0
+        for c in self.name:
+            i = i + 1
+        return i
+e =  Employee()
+print(e.name)
+print(len(e))
+#str, call, fstr more to explore
         
          
