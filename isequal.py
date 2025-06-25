@@ -5,10 +5,10 @@ print(a is b) #exact loc in mem
 print( a == b) #value
 
 class Person:
-    name = "souju"
-    occ = "fd"
-    nw = 100
-    def info(self):
+     name = "souju"
+     occ = "fd"
+     nw = 100
+     def info(self):
         print(f"{self.name} is a {self.occ}")
 
 
