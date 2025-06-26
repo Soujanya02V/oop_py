@@ -13,15 +13,14 @@ child_object = ChildClass()
 child_object.childMethod()
 child_object.parent_method()
 
-
-# Sample data representing a table of students
+# another example
 students = [
     {"id": 1, "name": "Alice", "email": "alice@example.com"},
     {"id": 2, "name": "Bob", "email": "bob@example.com"},
     {"id": 3, "name": "Charlie", "email": "charlie@example.com"},
 ]
 
-# Function to check if a combination of fields is a super key
+
 def is_super_key(data, keys):
     seen = set()
     for row in data:
@@ -31,7 +30,7 @@ def is_super_key(data, keys):
         seen.add(values)
     return True
 
-# Example usage
+
 print("Is ['id'] a super key?", is_super_key(students, ['id']))
 print("Is ['name'] a super key?", is_super_key(students, ['name']))
 print("Is ['email'] a super key?", is_super_key(students, ['email']))
