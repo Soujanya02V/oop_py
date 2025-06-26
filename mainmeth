@@ -1,1 +1,7 @@
 #this contains main methods in the file
+def main():
+    print("Hello from the main method!")
+
+if __name__ == "__main__":
+    main()
+
